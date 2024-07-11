@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
           .value,
       };
       //test
-      if (firstname == "first" && lastname == "try" && email == "first_try@gmail.com" && password == "123456"){
+      if (firstname == "#" && lastname == "#" && email == "#" && password == "#"){
         window.location.href = "signin_page.html";
 
         return false;
