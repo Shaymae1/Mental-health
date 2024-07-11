@@ -4,7 +4,7 @@ function sigin_login() {
     var password = document.getElementById("password").value;
   
     /*Check username and password*/
-    if (username == "admin, first, ali, dire" && password == "admin") {
+    if (username == "admin, first, ali, derrick" && password == "admin, first, ali, derrick") {
       window.location.href = "dashboard.html";
   
       return false;
