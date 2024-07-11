@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Signin</title>
+    <link rel="stylesheet" href="front_end/CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="front_end/bootstrap-5.1.3/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="front_end/font-awesome-4.7.0/css/font-awesome.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+    <section class="nav">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand"
+            href="index.html"
+            style="color: #ac3b61; font-size: 25px"
+          >
+            <img
+              src="front_end/images/logo1-removebg-preview.png"
+              alt="Logo"
+              width="40px"
+              height="40px"
+            />
+            Be Kind to Your Mind
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutus">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-----------------------Signin Section--------------------->
+    <section id="signin">
+      <div class="login-dark">
+        <form method="post" name="mylogin_form" onsubmit="return false">
+            <h2 style="text-align: center;">Login In</h2>
+            <div class="illustration"><i class="icon ion-ios-locked-outline"></i></div>
+            <div><p style="text-align: center;">Enter details below</p></div>
+            <div class="form-group"><input class="form-control" type="user" id="user" placeholder="Username..."></div>
+            <div class="form-group"><input class="form-control" type="password" id="password" placeholder="Password..."></div>
+            <div class="form-group"><button class="btn btn-primary btn-block" type="submit" onclick="sigin_login()">Log In</button></div>
+            <a href="#" class="forgot">Do you forgot your email or password?</a>
+          </form>
+      </div>
+    </section>
+
+    <!--------------Services Columns------------->
+    <section id="services">
+          <div class="container text-center">
+            <div class="title">
+              <a id="service" style="text-decoration: none; color: #41b3a3;">
+              <h1>Services</h1>
+              </a>
+            </div>
+            <div class="row">
+              <div class="col services">
+                <img src="front_end/images/edit1.jpeg" height="300px" width="400px">
+                <h4>Monitor your Mental Health</h4>
+                <p>Embark on a journey of mindful beginnings, leading to fulfilling endings, as we support your mental health with compassion and understanding.</p>
+                <a href="#" style="color: #41b3a3;">Learn more...</a>
+              </div>
+              <div class="col services">
+                <img src="front_end/images/family__1_-removebg-preview.png" height="300px" width="400px">
+                <h4>Register as a Guardian</h4>
+                <p>Healing minds and renewing spirits are at the heart of our mission, creating a space where children can find peace and serenity.</p>
+                <a href="#" style="color: #41b3a3;">Learn more...</a>
+              </div>
+              <div class="col services">
+                <img src="front_end/images/3836182-editted.png" height="300px" width="400px">
+                <h4>Find A Therapist</h4>
+                <p>Choose from our numerous therapists, who help navigate the paths to mental wellness with us, where understanding and support intersect to create a roadmap for your mental health journey.</p>
+                <a href="#" style="color: #41b3a3;">Learn more...</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+    <!--------------- About Us -------------->
+    <section id="about-us">
+      <div class="container text-center">
+        <div class="title">
+          <a id="aboutus" style="text-decoration: none; color: #ac3b61">
+            <h1>About Us</h1>
+          </a>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h4 class="about-title">Innovative Solutions for ADHD:</h4>
+            <p>
+              Be Kind to Your Mind is dedicated to developing and providing innovative
+              solutions tailored to address the challenges associated with ADHD.
+              From personalized therapeutic approaches to cognitive training
+              programs, our goal is to empower individuals to manage their
+              symptoms effectively and thrive in their daily lives.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="front_end/images/ADHD-removebg-preview.png"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="front_end/images/5125122-removebg-preview.png"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-6">
+            <h4 class="about-title">Education and Awareness:</h4>
+            <p>
+              Be Kind to Your Mind is dedicated to raising awareness about ADHD and
+              mental health in general. We believe that education is a powerful
+              tool for dismantling misconceptions and fostering empathy. Our
+              initiatives include educational programs, resources, and advocacy
+              efforts to promote a deeper understanding of neurodiversity.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h4 class="about-title">Holistic Mental Wellness:</h4>
+            <p>
+              We recognize that mental health extends beyond the management of
+              specific conditions. Be Kind to Your Mind is committed to promoting
+              holistic mental wellness for all individuals, fostering
+              resilience, emotional intelligence, and overall well-being.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="front_end/images/3874157-removebg-preview.png"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p style="text-align: center">
+        ©Be Kind to Your Mind. Designed by our team.
+      </p>
+      <p style="text-align: right">
+        Connect with us via:
+        <a href="#"
+          ><img
+            src="front_end/images/icons/facebook-icon.png"
+            alt="facebook"
+            height="25px"
+            width="25px"
+        /></a>
+        <a href="#"
+          ><img
+            src="front_end/images/icons/instagram-icon.png"
+            alt="instagram"
+            height="25px"
+            width="25px"
+        /></a>
+        <img
+          src="front_end/images/icons/twitter-icon.png"
+          alt="twitter-x"
+          height="25px"
+          width="25px"
+        />
+      </p>
+    </footer>
+    <script src="front_end/bootstrap-5.1.3/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="front_end/JS/login.js"></script>
+  </body>
+</html>

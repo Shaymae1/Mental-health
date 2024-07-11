@@ -1,0 +1,262 @@
+/*Style CSS for Portfolio */
+
+@import url("https://fonts.googleapis.com/css?family=Varela Round");
+html {
+  background-image: linear-gradient(to right, #f0f8ff, #c38d9e);
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+/*-------Navigation Bar------*/
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-image: linear-gradient(to right, #f0f8ff, #c38d9e);
+  padding: auto;
+  height: 75px;
+}
+
+.navbar {
+  color: #ac3b61;
+  padding: 0 !important;
+  top: 10px;
+  bottom: 10px;
+}
+
+.navbar-nav {
+  margin-left: auto !important;
+  float: right;
+  padding: 0;
+}
+.navbar-nav li {
+  color: #ac3b61 !important;
+  padding: 0 10px;
+}
+.nav-link {
+  display: block;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ac3b61 !important;
+  font-family: 'Varela Round';
+  font-weight: 600;
+  float: right;
+  margin: auto;
+  text-align: left;
+}
+.nav-link:hover {
+  background-color: #e8a87c;
+  border-radius: 30px;
+}
+
+.navbutton {
+  display: flex;
+  width: 100%;
+  margin: 0px;
+  float: right;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+.fa-bars {
+  color: black;
+  font-size: 25px;
+  float: right;
+}
+
+/*------------------------Banner Section------------------------*/
+#banner {
+  background-image: linear-gradient(to right, #f0f8ff, #c38d9e);
+  padding-top: 5%;
+}
+.promo-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+  font-family: 'Varela Round';
+  font-size: 40px;
+}
+
+.bottom-wave {
+  width: 100%;
+}
+
+#login {
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 42px;
+  margin: 10px;
+  width: 200px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+#login:hover {
+  background-color: #c38d9e;
+}
+#getstart {
+  background-color: #ac3b61;
+  color: black;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 42px;
+  margin: 10px;
+  width: 200px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  text-wrap: nowrap;
+}
+
+#getstart:hover {
+  background-color: #c38d9e;
+}
+
+/*---------------------Signin Banner Section-------------------*/
+
+.login-dark {
+  height:900px;
+  background: #f9b7e8 url(../images/5063406-editted.png);
+  background-size:cover;
+  position:relative;
+}
+
+.login-dark form {
+  max-width:320px;
+  width:90%;
+  background-color:#1d2733;
+  padding:40px;
+  border-radius:4px;
+  transform:translate(-50%, -50%);
+  position:absolute;
+  top:50%;
+  left:50%;
+  color:#fff;
+  box-shadow:3px 3px 4px rgba(0,0,0,0.2);
+}
+
+.login-dark .illustration {
+  text-align:center;
+  padding:15px 0 20px;
+  font-size:100px;
+  color:#41b3a3;
+}
+
+.login-dark form .form-control {
+  background:none;
+  border:none;
+  border-bottom:1px solid #434a52;
+  border-radius:0;
+  box-shadow:none;
+  outline:none;
+  color:inherit;
+}
+
+.login-dark form .btn-primary {
+  background:#41b3a3;
+  border:none;
+  border-radius:4px;
+  padding:11px;
+  box-shadow:none;
+  margin-top:26px;
+  text-shadow:none;
+  outline:none;
+}
+
+.login-dark form .btn-primary:hover, .login-dark form .btn-primary:active {
+  background:#85dcb8;
+  outline:none;
+}
+
+.login-dark form .forgot {
+  display:block;
+  text-align:center;
+  font-size:12px;
+  color:#6f7a85;
+  opacity:0.9;
+  text-decoration:none;
+}
+
+.login-dark form .forgot:hover, .login-dark form .forgot:active {
+  opacity:1;
+  text-decoration:none;
+}
+
+.login-dark form .btn-primary:active {
+  transform:translateY(1px);
+}
+
+/*---------------------Signup Banner Section-------------------*/
+
+.form-control:not(select) {
+    padding: 1.5rem 0.5rem;
+}
+
+select.form-control {
+    height: 52px;
+    padding-left: 0.5rem;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+
+/*-------------Services-------------*/
+#services {
+  margin: 50px;
+  padding: 80px 0;
+}
+
+.services {
+  padding: 20px;
+}
+
+.services h4 {
+  padding: 5px;
+  margin-top: 25px;
+}
+
+.title::before {
+  content: "";
+  background: #e27d60;
+  height: 5px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+
+.title::after {
+  content: "";
+  background: #c38d9e;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  display: block;
+  transform: translateY(0px);
+}
+
+/*-------------------About Us Section--------------------*/
+
+#about-us {
+  background: #85dcb8;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.about-title {
+  margin-top: 8%;
+}
