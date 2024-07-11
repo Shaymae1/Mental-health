@@ -15,12 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         passwordConfirmation: document.getElementById("passwordConfirmation")
           .value,
       };
-      //test
-      if (firstname == "#" && lastname == "#" && email == "#" && password == "#"){
-        window.location.href = "signin_page.html";
 
-        return false;
-      }
       // Here, you can send the form data to the server to create the account
       // For demonstration purposes, we'll just log the form data
       console.log("Form Data:", formData);
